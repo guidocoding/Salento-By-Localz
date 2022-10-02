@@ -1,0 +1,94 @@
+/******* GENERAL *******/
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+	display: inline-block;
+	background: #ace600;
+	padding: 12px 24px;
+	color: #000;
+    border: 0;
+	transition: background .3s;
+	border-radius: 3px;
+}
+
+.btn:hover {
+	background: #86b300;
+}
+
+/******* NAVBAR ********/
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/******* MAIN CONTENT *****/
+
+
+.hero-banner {
+    padding: 116px 0;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .1)), 
+                url('../images/salento2.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+
+#main-content .display-4, #main-content .title {
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, .8);
+}
+
+
+.sub-title-home {
+    border-bottom: #ace600 solid 3px;
+}
+
+
+.testo-home {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+mark {
+    background-color:  #ace600;
+    border-radius: 3px;
+}
+
+/*********** GALLERY ********/
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-text {
+    flex: 1;
+}
+
+
+/********* FOOTER ********/
+footer img {
+    width: 24px;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .hero-banner {
+        padding: 220px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-caption {
+        padding: 60px 20px;
+    }
+}
